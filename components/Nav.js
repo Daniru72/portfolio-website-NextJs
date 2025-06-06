@@ -26,8 +26,30 @@ export const navData = [
   },
 ];
 
+//Next router
+import { useRouter } from 'next/router';
+import Link from 'next/link';
+
+
+
 const Nav = () => {
-  return <nav>nav</nav>;
+  const router = useRouter();
+  const pathname = router.pathname;
+  return (
+    <nav>
+      {/* {inner} */}
+      <div className='flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 
+      px-4 md:px-40 xl:px-0 h-80 bg-white/10 xl:h-max backdrop-blur-sm text-3xl xl:text-xl xl:rounded-full'>
+        {navData.map((link, index) => {
+          return (
+            <Link href={link.path} key={index}>
+              {link.icon}
+            </Link>
+          );
+        })}
+      </div>
+    </nav>
+  );
 };
 
 export default Nav;
