@@ -96,6 +96,7 @@ import Circles from '../../components/Circles';
 //framer motion
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
+import ParticlesContainer from "../../components/ParticlesContainer";
 
 const About = () => {
   const [index, setIndex] = useState(0);
@@ -112,11 +113,21 @@ const About = () => {
     exit='hidden'
     className="hidden xl:flex absolute bottom-0 -left-[370px]">
       <Averta />
+      
     </motion.div>
+
+    
 
     <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
 
-      <div className="flex-1 flex flex-col justify-center">text</div>
+      <div className="flex-1 flex flex-col justify-center">
+        <h2 className="h2">Captivating <span className="text-accent">Stories</span> birth magnificent design</h2>
+        <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
+          10 years ago, I started my journey as a freelance designer and UI/UX expert with a passion for creating visually stunning and user-friendly interfaces.
+          </p>
+      </div>
+
+
       <div className=" flex flex-col w-full xl:max-w-[48%] h-[480px]">
         <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4 ">
           {aboutData.map((item, itemIndex) => {
@@ -153,7 +164,10 @@ const About = () => {
           })}
         </div>
       </div>
+       
     </div>
+     <ParticlesContainer/>
+     
 </div>
 
   ); 
