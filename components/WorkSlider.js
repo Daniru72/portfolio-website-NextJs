@@ -44,8 +44,52 @@ const workSlides = {
   ],
 };
 
+
+
+
+//import swiper react component
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+//import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/free-mode';
+
+
+//icons
+import {BsArrowRight} from "react-icons/bs";
+
+
+//import required modules
+import { Pagination } from 'swiper';
+
+
+
 const WorkSlider = () => {
-  return <div>Work Slider</div>;
+  return(
+
+    <Swiper 
+      spaceBetween={10}
+      pagination={{
+        clickable: true,
+      }}
+      modules={[ Pagination]}
+      className="h-[280px] sm:h-[480px]"
+    
+    >
+
+      {workSlides.slides.map((slide, index) => {
+        return(
+            <SwiperSlide key={index} >
+               slide
+            </SwiperSlide>
+        );
+      })}
+
+    </Swiper>
+
+
+  );
 };
 
 export default WorkSlider;
