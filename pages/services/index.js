@@ -20,17 +20,35 @@ const Services = () => {
     <div className='flex flex-col xl:flex-row gap-x-8'>
       {/* text */}
       <div className='text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0'>
-        <h2 className='h2 xl:mt-8'>My Services <span className='text-accent'>.</span></h2>
-        <p className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
+
+        <motion.h2 
+        variants={fadeIn('up', 0.2)}
+         initial='hidden' 
+         animate='show' 
+         exit='hidden' 
+         className='h2 xl:mt-8'>My Services <span className='text-accent'>.</span></motion.h2>
+
+        <motion.p
+        variants={fadeIn('up', 0.4)}
+         initial='hidden' 
+         animate='show' 
+         exit='hidden' 
+          className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
           I provide comprehensive web development services tailored to your unique needs, including responsive website design, full-stack application development, and seamless user experience optimization. Whether you need a personal portfolio, a business website, or a complex web application, I am dedicated to delivering high-quality 
           solutions that help you achieve your goals and stand out in the digital landscape.
-        </p>
+        </motion.p>
       </div>
 
-      <div className='w-full xl:max-w-[65%]'>
-         {/* slider */}
+  {/* slider */}
+      <motion.div 
+       variants={fadeIn('down', 0.6)}
+         initial='hidden' 
+         animate='show' 
+         exit='hidden' 
+         className='w-full xl:max-w-[65%]'>
+       
         <ServiceSlider/>
-      </div>
+      </motion.div>
 
      
     </div>
