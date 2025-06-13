@@ -13,6 +13,14 @@ Showcase your skills, projects, and services with beautiful animations and a cle
 - 🧩 Modular components (Nav, Header, Socials, Services, etc.)
 - 🧑‍💻 Easy to customize with your own content
 
+ ## Screenshots
+<img src="https://github.com/user-attachments/assets/445eeda7-1a73-4398-87db-f9cefb9820c7" alt="Home" width="400">
+<img src="https://github.com/user-attachments/assets/4e2f3cd4-a1e5-4ed9-af7a-003d73c44fb5" alt="About" width="400">
+<img src="https://github.com/user-attachments/assets/3ed35498-77a3-402c-94e3-d540d4892668" alt="Services" width="400">
+<img src="https://github.com/user-attachments/assets/18664a2a-1698-4e47-b219-aca84109f106" alt="Mywork" width="400">
+<img src="https://github.com/user-attachments/assets/3c583db7-8772-4ab9-b6a0-db553b168c34" alt="Reviews" width="400">
+<img src="https://github.com/user-attachments/assets/123590b1-6fef-4b87-a9f2-f68d596fc0b2" alt="Contact" width="400">
+
 ## Getting Started
 
 1. **Clone the repository:**
