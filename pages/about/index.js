@@ -243,7 +243,7 @@ const About = () => {
       </motion.div>
        
     </div>
-     <ParticlesContainer/>
+  
      
 </div>
 
