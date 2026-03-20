@@ -26,27 +26,27 @@ const serviceData = [
   {
     icon: <RxCrop />,
     title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Crafting memorable brand identities — logos, color systems, typography, and style guides that communicate your vision and build lasting recognition.',
   },
   {
     icon: <RxPencil2 />,
     title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Creating visually compelling UI/UX designs with Figma, Adobe XD, and Photoshop — from wireframes and prototypes to pixel-perfect final assets.',
   },
   {
     icon: <RxDesktop />,
     title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Building fast, responsive, and scalable web applications using React, Next.js, Node.js, and modern full-stack technologies tailored to your goals.',
   },
   {
     icon: <RxReader />,
     title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Writing clear, persuasive, and SEO-friendly copy for websites, landing pages, and marketing materials that engage your audience and drive conversions.',
   },
   {
     icon: <RxRocket />,
     title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Boosting your online visibility through technical SEO, on-page optimization, performance tuning, and content strategy to drive organic traffic growth.',
   },
 ];
 
